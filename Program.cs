@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddTransient<Seed>();
 
 
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<DataContext>(options =>
